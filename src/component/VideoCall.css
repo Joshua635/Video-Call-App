@@ -1,0 +1,48 @@
+/* Styles for the VideoCall component */
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.video-element {
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-element {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
